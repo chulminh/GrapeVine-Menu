@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  background-color: #fcfaa6;
+  width: 100vw;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 0;
+  height: 28vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bgWave {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 0;
+  height: 28.2vh;
+}
+
+.container {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+header .title {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.name {
+  margin: 0 auto;
+  padding: 140px 0 16px 0;
+  width: 280px;
+}
+
+.name .grapevine {
+  display: block;
+  z-index: 2;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo .grapes {
+  display: block;
+  width: 26px;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+section {
+  position: relative;
+  z-index: 2;
+  margin: 30px 0;
+}
+
+.dish-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dish-head img {
+  position: relative;
+  display: block;
+  width: 10px;
+  margin: 0 10px;
+}
+
+.dish-head h1 {
+  text-align: center;
+  font-family: itc-benguiat, serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.dish {
+  border-bottom: 1.5px dotted black;
+  padding: 8px 0 10px 0;
+}
+
+.dish .dish-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dish .dish-name h2 {
+  margin: 2px 0;
+  padding: 0;
+}
+
+.dish p {
+  font-size: 16px;
+  font-family: museo-sans, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  margin: 2px 64px 2px 8px;
+}
+
+.dish .dish-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dish .dish-info h2 {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+/*# sourceMappingURL=styles.css.map */
