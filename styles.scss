@@ -1,32 +1,69 @@
 body {
-  margin: 0;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.foods {
+  margin: 0 auto;
   background-color: #fcfaa6;
   width: 100vw;
 }
 
+.drinks {
+  margin: 0 auto;
+  background-color: #331429;
+  width: 100vw;
+}
+
+//
 .background {
   position: absolute;
   width: 100%;
   margin: 0 auto;
   z-index: 0;
-  height: 28vh;
+  height: 265px;
+  background-image: url("assets/forest_bg.jpg");
 
-  object-fit: cover;
+  img {
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+  }
 }
 
-.bgWave {
+//
+.background2 {
   position: absolute;
   width: 100%;
   margin: 0 auto;
   z-index: 0;
-  height: 28.2vh;
+  height: 265px;
+  background-image: url("assets/forest_bg2.jpg");
+
+  .wave1 {
+    position: absolute;
+    width: 100%;
+    top: -1px;
+  }
+
+  .wave2 {
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+  }
 }
 
+.bigs {
+  padding: 0 0 100px 0;
+}
+
+//
 .container {
   width: 75vw;
   margin: 0 auto;
 }
 
+//
 header {
   .title {
     position: relative;
@@ -37,7 +74,7 @@ header {
 
 .name {
   margin: 0 auto;
-  padding: 140px 0 16px 0;
+  padding: 100px 0 16px 0;
   width: 280px;
 
   .grapevine {
@@ -57,7 +94,7 @@ header {
   }
 }
 
-section {
+.dishGroups {
   position: relative;
   z-index: 2;
   margin: 30px 0;
@@ -66,6 +103,9 @@ section {
 .dish-head {
   display: flex;
   justify-content: center;
+  text-align: center;
+  font-style: normal;
+
   img {
     position: relative;
     display: block;
@@ -74,17 +114,25 @@ section {
   }
 
   h1 {
-    text-align: center;
-    font-family: itc-benguiat, serif;
-    font-style: normal;
     font-weight: 700;
     margin: 16px 0;
+    font-family: itc-benguiat, serif;
+    font-size: 24px;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-style: italic;
+    font-family: museo-sans, sans-serif;
+    font-size: 16px;
+    margin: 30px 0;
   }
 }
 
 .dish {
-  border-bottom: 1.5px dotted black;
+  border-bottom: 1.5px dotted;
   padding: 8px 0 10px 0;
+
   .dish-name {
     display: flex;
     font-size: 10px;
@@ -106,4 +154,13 @@ section {
     font-style: italic;
     margin: 2px 64px 2px 8px;
   }
+}
+
+.white {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.spacer {
+  height: 50px;
 }
